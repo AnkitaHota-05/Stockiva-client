@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    height: 60px !important;
+}
+footer {
+    max-width: 1024px;
+    height: 240px !important;
+    height: fit-content;
+    margin: auto;
+}
+.bg-main {
+    background-color: #8770c5;
+    color: white;
+}
+.color-main-b {
+    color: #e6e6e6;
+}
+
+.base-card {
+    background-color: #ffffff;
+    width: fit-content;
+    margin: auto;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.base-input {
+    text-align: left;
+    padding: 0 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.61);
+    width: 100%;
+}
+
+.base-btn {
+    margin: auto;
+    background-color: #EEEBE6 !important;
+    color: #533480 !important;
+    padding: 5px 20px !important;
+    border-radius: 5px !important;
+}
+
+.text-base {
+    color: #533480;
+}
+.text-left {
+    text-align: left;
+}
+.text-fade {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* App */
+.app {
+    background-image: url('../public/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.body {
+    min-height: calc(100vh - 240px);
+}
